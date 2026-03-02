@@ -7,6 +7,7 @@
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .navbar {
   display: flex;
   justify-content: space-around;
@@ -17,12 +18,14 @@
   font-weight: bold;
   font-family: "Roboto", sans-serif;
   color: white;
+  padding-top: 10px;
 }
 .nav-links {
   display: flex;
   align-items: center;
   gap: 1rem;
   list-style: none;
+  padding-top: 10px;
 }
 .nav-links a {
   text-decoration: none;
@@ -31,5 +34,52 @@
   padding: 2px;
 }
 .header-body {
-  border: 1px dashed green;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 200px;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+.hero-text h1 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  font-weight: 900;
+  margin: 0;
+}
+
+.hero-desc {
+  color: #d1d5db;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.btns {
+  margin-top: 10px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+}
+.sign-up-btn {
+  text-decoration: none;
+  margin-top: 10px;
+  color: white;
+  font-size: 18px;
+  border-radius: 10px;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #3882f6;
+}
+img {
+  width: 300px;
+  margin-left: 10px;
 }
