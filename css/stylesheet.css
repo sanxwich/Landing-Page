@@ -97,7 +97,6 @@ main {
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
-  border: solid 1px black;
 }
 
 .card {
@@ -123,4 +122,23 @@ main {
   font-size: 14px;
   color: #555;
   margin: 8px 0;
+}
+.quote-body {
+  background-color: #e5e7eb;
+  padding: 50px 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* push quote to top, author to bottom */
+  align-items: center;
+}
+.quote {
+  font-size: 36px;
+  font-weight: 300;
+  color: #1f2937;
+  text-align: center;
+}
+.author {
+  padding-top: 10px;
+  justify-content: end;
+  font-size: 35px;
 }
